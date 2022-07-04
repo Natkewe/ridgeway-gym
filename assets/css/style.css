@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     margin:0;
@@ -7,12 +7,12 @@
 }
 
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #000000;
 }
 
 h2{
-    font-family: Oswald;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #000000;
@@ -21,6 +21,7 @@ h2{
 #logo{
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu{
@@ -46,6 +47,9 @@ h2{
 .active{
     border-bottom: 1px solid #777777;
 }
+
+
+/* home page photo under nav bar */
 
 #gymhome-image{
     height:600px;
@@ -79,7 +83,7 @@ h2{
 
 #cover-text {
     font-size: 130%;
-    font-family: Oswald;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -98,7 +102,7 @@ h2{
 
 }
 
-
+/* timetable page photo under nav bar */
 
 #weights-image{
     height:600px;
@@ -124,4 +128,217 @@ h2{
     to{
         transform: scale(1.1);
     }
+}
+
+/* sign-in page photo under nav bar */
+
+#strong-image{
+    height:600px;
+    width: 100%;
+    background: url("../images/strong.jpg") no-repeat center center;
+
+    animation-name: weights-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#strong-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes strong-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/* our gym page photo under nav bar */
+
+#secondweight-image{
+    height:600px;
+    width: 100%;
+    background: url("../images/secondweight.jpg") no-repeat center center;
+
+    animation-name: secondweight-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#secondweight-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes secondweight-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/* membership options heading */
+
+#options{
+    width: 150px;
+    margin: 10px auto 10px auto;
+    font-size: 280%;
+    
+}
+
+/* free day pass container */
+
+.pass{
+    
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    border-color: #000000
+}
+
+/* off peak pass container */
+
+.offpeak{
+    
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    border-color: #000000
+}
+
+/* all access pass container */
+
+.allaccess{
+    
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    margin-right: 0%;
+    border-color: #000000;
+    
+}
+
+/* gallery photo container */ 
+
+#gallery-outer {
+    padding: 0px;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin: 4%;
+    border-color: #000000
+}
+
+#gallery-image{
+    height:300px;
+    width: 100%;
+    background: url("../images/800runner.jpg") no-repeat center center;
+    animation-name: secondweight-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes secondweight-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+/* facilities photo container */ 
+
+#facilities-outer {
+    padding: 0px;
+    text-align: center;
+    width: 40%;
+    float: right;
+    margin: 4%;
+    border-color: #000000
+}
+
+#facilities-image{
+    height:300px;
+    width: 100%;
+    background: url("../images/800yoga.jpg") no-repeat center center;
+
+    animation-name: secondweight-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes secondweight-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+/* opening times container */
+
+.openingtimes {
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    border-color: #000000
+
+}
+
+/* map container */
+
+.map {
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    border-color: #000000
+
+}
+
+/* contact us container */
+
+.contactus {
+    border-width: 2px;
+    border-style: groove;
+    padding: 10px;
+    text-align: center;
+    width: 31.3%;
+    float: right;
+    margin: 1%;
+    border-color: #000000
+
 }
