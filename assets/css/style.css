@@ -250,7 +250,7 @@ h2{
     border-color: #000000
 }
 
-#gallery-image{
+#gallery-image {
     height:300px;
     width: 100%;
     background: url("../images/800runner.jpg") no-repeat center center;
@@ -258,6 +258,7 @@ h2{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes secondweight-zoom {
     from{
@@ -342,3 +343,64 @@ h2{
     border-color: #000000
 
 }
+
+/* sign-in page */
+
+#user {
+    color:rgba(241, 109, 107, .7)
+}
+
+
+
+
+/* timetable page */
+
+table {
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 10px 60px 10px 20px;
+    border-spacing: 0px;
+    font-size: 100%;
+    margin: 0px;
+}
+
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+tr .head, th {
+    color: #ffffff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #6d6e6f;
+    border-right: 1px solid #547ca0;
+    border-top: 1px solid #749abe;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+
+}
+
+td {
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr .even td, tr .even th {
+    background-color: #e8eff5;
+
+}
+
+tr .head th:first-child {
+    border-top-left-radius: 5px;
+
+}
+
+tr .head th:last-child {
+    border-top-right-radius: 5px;
+}
+
